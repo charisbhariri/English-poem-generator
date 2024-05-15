@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
+   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>Ai english poem</title>
 </head>
@@ -13,8 +14,9 @@
     </header>
 
     <main>
-      <form>
-       <input type="text" placeholder="Enter the topic of the english poem"
+      <form id="poem-generator-form">
+       <input type="text" 
+       placeholder="Enter the topic of the english poem"
         autofocus 
         required
         autocomplete="off"
@@ -22,11 +24,7 @@
         /> 
        <input type="submit" class="submit-button"/>
       </form>
-       <div class="poem">
-        Shall I compare thee to a summer’s day?
-      <br />
-       Thou art more lovely and more temperate:
-      </div>
+       <div class="poem" id="poem"></div>
 
     </main>
   
