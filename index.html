@@ -7,6 +7,7 @@
     <title>Ai english poem</title>
 </head>
 <body>
+    <div class="container">
     <header>
     <h1>Ai english poem generator</h1>
     </header>
@@ -17,17 +18,18 @@
         autofocus 
         required
         autocomplete="off"
+        class="Instructions"
         /> 
-       <input type="submit"/>
+       <input type="submit" class="submit-button"/>
       </form>
-       <div>
+       <div class="poem">
         Shall I compare thee to a summer’s day?
       <br />
        Thou art more lovely and more temperate:
       </div>
 
     </main>
-
+  
     <footer> 
         This Ai project was coded by <a href="https://github.com/charisbhariri" target="_blank">Plaxedes Bhariri</a> and is 
         <a href="https://github.com/charisbhariri/English-poem-generator" target="_blank"
@@ -35,7 +37,7 @@
         open-sourced on Github </a
         > and is <a href="https://english-poems-generator.netlify.app/" target="_blank">hosted on Netlify</a>.
     </footer>
-
+    </div>
     <script src="src/index.js"></script>
 </body>
 </html>
